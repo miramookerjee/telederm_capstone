@@ -113,6 +113,10 @@ nav {
     filter: FlipH;
 }
 
+#back-btn {
+    margin-left: 5%
+}
+
 
 .taken{
     height: 100px!important;
