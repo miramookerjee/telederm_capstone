@@ -38,7 +38,7 @@ html, body{
     background: none;
     border: none;
     position: fixed;
-    bottom: 100px;
+    bottom: 120px;
     left: calc(50% + 8px);
 }
 
@@ -47,13 +47,13 @@ html, body{
     background: none;
     border: none;
     position: fixed;
-    bottom: 100px;
+    bottom: 120px;
     left: calc(50% + 100px);
 }
 
 #camera--trigger{
     position: fixed;
-    bottom: 30px;
+    bottom: 20px;
     left: calc(50% - 50px);
 }
 
@@ -62,7 +62,7 @@ html, body{
     background: none;
     border: none;
     position: fixed;
-    bottom: 100px;
+    bottom: 120px;
     left: calc(50% - 83px);
 }
 
@@ -71,7 +71,7 @@ html, body{
     background: none;
     border: none;
     position: fixed;
-    bottom: 100px;
+    bottom: 120px;
     left: calc(50% - 175px);
 }
 }
