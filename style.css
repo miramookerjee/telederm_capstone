@@ -12,6 +12,10 @@ h1 {
     font-size: 160%;
 }
 
+nav {
+    background-color: black;
+}
+
 /* Login Screen */
 
 #login-btn {
