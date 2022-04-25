@@ -5,6 +5,8 @@ html, body{
   width: 100%;
 }
 
+/* Camera */
+
 
 #camera, #camera--view, #camera--sensor, #camera--output{
     position: fixed;
@@ -16,20 +18,8 @@ html, body{
     transform: scaleX(-1);
     filter: FlipH;
 }
-#camera--trigger{
-    position: fixed;
-    bottom: 30px;
-    left: calc(50% - 50px);
-}
 
-#two-device-mode-button {
-    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
-    background: none;
-    border: none;
-    position: fixed;
-    bottom: 100px;
-    left: calc(50% - 150px);
-}
+
 .taken{
     height: 100px!important;
     width: 100px!important;
@@ -39,4 +29,49 @@ html, body{
     top: 20px;
     right: 20px;
     z-index: 2;
+}
+
+/* Controls At Bottom of Camera Screen */
+
+#adjust-lighting-button {
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+    background: none;
+    border: none;
+    position: fixed;
+    bottom: 100px;
+    left: calc(50% + 8px);
+}
+
+#camera-assistant-button {
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+    background: none;
+    border: none;
+    position: fixed;
+    bottom: 100px;
+    left: calc(50% + 100px);
+}
+
+#camera--trigger{
+    position: fixed;
+    bottom: 30px;
+    left: calc(50% - 50px);
+}
+
+#emphasis-filter-button {
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+    background: none;
+    border: none;
+    position: fixed;
+    bottom: 100px;
+    left: calc(50% - 83px);
+}
+
+#two-device-mode-button {
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+    background: none;
+    border: none;
+    position: fixed;
+    bottom: 100px;
+    left: calc(50% - 175px);
+}
 }
