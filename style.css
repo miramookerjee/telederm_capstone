@@ -116,8 +116,8 @@ h1 {
     transition: all 0.5s ease-in;
     border: solid 3px white;
     box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
-    top: 20px;
-    right: 20px;
+    bottom: 20px;
+    left: 20px;
     z-index: 2;
 }
 
@@ -128,7 +128,7 @@ h1 {
     background: none;
     border: none;
     position: fixed;
-    bottom: 120px;
+    bottom: 150px;
     left: calc(50% + 8px);
 }
 
@@ -137,7 +137,7 @@ h1 {
     background: none;
     border: none;
     position: fixed;
-    bottom: 120px;
+    bottom: 150px;
     left: calc(50% + 100px);
 }
 
@@ -152,7 +152,7 @@ h1 {
     background: none;
     border: none;
     position: fixed;
-    bottom: 120px;
+    bottom: 150px;
     left: calc(50% - 83px);
 }
 
@@ -161,7 +161,7 @@ h1 {
     background: none;
     border: none;
     position: fixed;
-    bottom: 120px;
+    bottom: 150px;
     left: calc(50% - 175px);
 }
 
