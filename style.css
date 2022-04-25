@@ -30,6 +30,23 @@ html, body{
 }
 
 /* Home Screen */
+
+#begin-taking-photos {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 90%;
+}
+
+#complete-screening {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 90%; 
+}
+
 #upcoming-appointment {
     display: block;
     margin-left: auto;
