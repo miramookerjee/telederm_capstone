@@ -4,6 +4,8 @@ html, body{
   height: 100%;
   width: 100%;
 }
+
+
 #camera, #camera--view, #camera--sensor, #camera--output{
     position: fixed;
     height: 100%;
@@ -27,6 +29,15 @@ html, body{
     position: fixed;
     bottom: 30px;
     left: calc(50% - 100px);
+}
+
+#two-device-mode-button {
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+    background: none;
+    border: none;
+    position: fixed;
+    bottom: 100px;
+    left: calc(50% - 150px);
 }
 .taken{
     height: 100px!important;
