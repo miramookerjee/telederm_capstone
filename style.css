@@ -12,7 +12,7 @@ h1 {
     font-size: 160%;
 }
 
-nav {
+#camera-nav {
     background-color: black;
 }
 
@@ -91,7 +91,7 @@ nav {
 
 .tutorial-header {
     margin: 10px;
-    margin-top: 100px;
+    margin-top: 10px;
     text-align: center;
 }
 
@@ -130,6 +130,9 @@ nav {
     z-index: 2;
 }
 
+.camera-bottom {
+    background-color: black;
+}
 /* Controls At Bottom of Camera Screen */
 
 #adjust-lighting-button {
