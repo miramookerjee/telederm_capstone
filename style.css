@@ -5,6 +5,13 @@ html, body{
   width: 100%;
 }
 
+h1 {
+    margin-left: 20px;
+    margin-top: 80px;
+    font-family: 'Khula', sans-serif;
+    font-size: 160%;
+}
+
 /* Login Screen */
 
 #login-btn {
@@ -51,8 +58,15 @@ html, body{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 150px;
+    margin-top: 20px;
     width: 90%;
+}
+
+#upcoming-appointment-text {
+    display: block;
+    margin-left: 10px
+    margin-top: 15px;
+    width: 70%;
 }
 
 /* Camera */
