@@ -24,6 +24,27 @@ cameraTrigger.onclick = function() {
     cameraSensor.getContext("2d").drawImage(cameraView, 0, 0);
     cameraOutput.src = cameraSensor.toDataURL("image/webp");
     cameraOutput.classList.add("taken");
+    var x = document.getElementById("camera--view");
+    const imgs = document.querySelectorAll('.taken');
+
+    imgs.forEach(img => {
+        if (x.style.filter == "saturate(4)") {
+            img.style.filter = "saturate(4)";
+        }  else {
+            img.style.filter = "saturate(1)";
+        }
+    });
 };
+
 // Start the video stream when the window loads
 window.addEventListener("load", cameraStart, false);
+
+// change the saturation of the video when clicked
+function changeFilter() {
+    var x = document.getElementById("camera--view");
+    if (x.style.filter == "saturate(1)") {
+      x.style.filter = "saturate(4)";
+    } else {
+      x.style.filter = "saturate(1)";
+    }
+  }
