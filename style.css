@@ -90,9 +90,16 @@ h1 {
     margin-top: 20px;
 }
 
+#tutorial-header-0 {
+    margin-top: 40%;
+}
+
+.progress-bar {
+    width: 100%;
+}
+
 .tutorial-header {
     margin: 10px;
-    margin-top: 10px;
     text-align: center;
 }
 
