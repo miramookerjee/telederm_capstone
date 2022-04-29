@@ -94,6 +94,12 @@ h1 {
     margin-top: 40%;
 }
 
+#yes-btn {
+    position: fixed;
+    left: 6%;
+    bottom: 13%;
+}
+
 .progress-bar {
     width: 100%;
 }
