@@ -58,12 +58,13 @@ h1 {
     width: 90%; 
 }
 
+#pre-appointment-header {
+    margin-top: 5%;
+}
+
 #upcoming-appointment {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    width: 90%;
+    width: 100%;
 }
 
 /* Tutorials */
