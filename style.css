@@ -69,10 +69,18 @@ h1 {
 
 /* Tutorials */
 
+#no-btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
 #tutorial1-photo {
-    position: fixed;
-    left: 15%;
-    top: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 80%; 
 }
 
 #tutorial2-header {
@@ -80,10 +88,11 @@ h1 {
 }
 
 #tutorial2-photo {
-    position: fixed;
-    left: 20%;
-    top: 32%;
-    height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 80%; 
 }
 
 #tutorial3-photo {
@@ -106,13 +115,18 @@ h1 {
 }
 
 #tutorial-header-0 {
-    margin-top: 40%;
+    display: block;
+    text-align: center;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 20%;
 }
 
 #yes-btn {
-    position: fixed;
-    left: 6%;
-    bottom: 17%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
 }
 
 .progress-bar {
@@ -120,16 +134,18 @@ h1 {
 }
 
 .tutorial-header {
-    position: fixed;
-    right: 4%;
-    top: 8%;
+    display: block;
     text-align: center;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 5%;
 }
 
 .next-btn {
-    position: fixed;
-    left: 6%;
-    bottom: 6%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
 }
 /* Camera */
 
