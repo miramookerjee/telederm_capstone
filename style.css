@@ -91,6 +91,17 @@ h1 {
     margin-top: 20px;
 }
 
+#chat1-photo {
+    width: 100%;
+}
+
+#keyboard {
+    position: absolute;
+    left: 0;
+    bottom: 0; 
+    width: 100%;
+}
+
 #tutorial-header-0 {
     margin-top: 40%;
 }
