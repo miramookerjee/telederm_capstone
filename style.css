@@ -75,11 +75,15 @@ h1 {
     top: 35%;
 }
 
+#tutorial2-header {
+    font-size: 100%;
+}
+
 #tutorial2-photo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
+    position: fixed;
+    left: 20%;
+    top: 32%;
+    height: 50%;
 }
 
 #tutorial3-photo {
