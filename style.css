@@ -97,10 +97,10 @@ h1 {
 
 #tutorial3-photo {
     display: block;
-    height: 55%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
+    width: 80%; 
 }
 
 #chat1-photo {
@@ -188,7 +188,7 @@ h1 {
     background: none;
     border: none;
     position: fixed;
-    bottom: 150px;
+    bottom: 15%;
     left: calc(50% + 8px);
 }
 
@@ -197,7 +197,7 @@ h1 {
     background: none;
     border: none;
     position: fixed;
-    bottom: 150px;
+    bottom: 15%;
     left: calc(50% + 100px);
 }
 
@@ -212,7 +212,7 @@ h1 {
     background: none;
     border: none;
     position: fixed;
-    bottom: 150px;
+    bottom: 15%;
     left: calc(50% - 83px);
 }
 
@@ -221,7 +221,7 @@ h1 {
     background: none;
     border: none;
     position: fixed;
-    bottom: 150px;
+    bottom: 15%;
     left: calc(50% - 175px);
 }
 
