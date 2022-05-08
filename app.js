@@ -42,9 +42,12 @@ window.addEventListener("load", cameraStart, false);
 // change the saturation of the video when clicked
 function changeFilter() {
     var x = document.getElementById("camera--view");
+    var y = document.getElementById("emphasis-filter-button")
     if (x.style.filter == "saturate(1)") {
       x.style.filter = "saturate(4)";
+      y.src = "images/emphasis-filter-btn-blue.png"
     } else {
       x.style.filter = "saturate(1)";
+      y.src = "images/emphasis-filter-btn.png"
     }
   }
